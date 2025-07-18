@@ -31,7 +31,7 @@ def set_background(image_file):
         unsafe_allow_html=True
     )
 
-set_background("cad1183e-5b81-43de-b157-f5aa1c399e3e.png")
+set_background("background.png")
 
 # --- Custom CSS ---
 st.markdown("""
@@ -62,8 +62,8 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # --- Load Model and Scaler ---
-model = joblib.load("best_model(1).pkl")
-scaler = joblib.load("scaler(1).pkl")
+model = joblib.load("best_model (1).pkl")
+scaler = joblib.load("scaler (1).pkl")
 
 # --- App Title ---
 st.markdown('<h1 class="title">🎓 Predicting Employability</h1>', unsafe_allow_html=True)
