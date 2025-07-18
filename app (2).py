@@ -31,7 +31,8 @@ def set_background(image_file):
         unsafe_allow_html=True
     )
 
-set_background("background.png")
+# ✅ Now call the function with your image file name
+set_background("background.jpg")  # or "background.png" if that's the format
 
 # --- Custom CSS ---
 st.markdown("""
